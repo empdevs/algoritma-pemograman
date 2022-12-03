@@ -34,8 +34,7 @@ int main(){
             cin >> t;
             cout << endl;
             // convert into decimal 1/2 -> 0.5
-            // luas = 0.5 * (a * t);
-            luas = (a * t) / 2;
+            luas = 0.5 * (a * t);
             cout << "Luas segitiga adalah "<< luas << endl;
         break;
         case 2:
@@ -97,55 +96,23 @@ int main(){
             cin>>nim;
             cout<<"Masukkan nilai 1 : ";
             cin>>value1;
-        
-            average = value1;
+            cout<<"Masukkan nilai 2 : ";
+            cin>>value2;
+
+            average = (value1 + value2) / 2;
 
             if(average < 60){
                 grade = "E";
             }else if(average < 70){
-                grade = "D";
-            }else if(average < 80){
                 grade = "C";
-            }else if(average < 90){
+            }else if(average < 80){
                 grade = "B";
-            }else if(average < 95){
+            }else if(average < 90){
                 grade = "A";
             }else{
-                grade = "A+";
+                grade = "Istimewa";
             }
     
-            if(average > 95){
-                 grade = "A+";
-            }else if(average > 90){
-                 grade = "A";
-            }else if(average > 80){
-                 grade = "B";
-            }else if(average > 70){
-                 grade = "C";
-            }else if(average > 60){
-                 grade = "D";
-            }else{
-                 grade = "E";
-            }
-
-            switch (expression){
-                case 1:/* constant-expression */:
-                    /* code */
-                break;
-                case 2:/* constant-expression */:
-                    /* code */
-                break;
-                case 3:/* constant-expression */:
-                    /* code */
-                break;
-                case 4:/* constant-expression */:
-                    /* code */
-                break;
-                
-                default:
-                break;
-            }
-
             cout<<"<===== Result =====>"<<endl;
             cout<<"Nama : "<<name<<endl;
             cout<<"Nim : "<<nim<<endl;

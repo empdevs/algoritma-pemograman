@@ -14,6 +14,12 @@ int main()
   e = ( ( 10 +4 ) -7) * 4;
   f = -40;
   
+  // if(!!!10 < 1){
+  //   cout<<"haha"<<endl;
+  // }
+
+  // if(5 > 2) cout<<"hahahahaha"<<endl;
+
   cout << "Name : " << name << endl;
   cout << "Variabel a: " << a << endl;
   cout << "Variabel b: " << b << endl;
